@@ -1,0 +1,32 @@
+<mod name="PDTH Menu V3" global_key="PDTHMenuV3">
+    <Hooks directory="Hooks">
+        <hook file="Menu/MenuBackdropGUI.lua" source_file="lib/managers/menu/menubackdropgui"/>
+        <hook file="Menu/MenuKitRenderer.lua" source_file="lib/managers/menu/menukitrenderer"/>
+        <hook file="LevelLoadingScreenGuiScript.lua" source_file="lib/utils/levelloadingscreenguiscript"/>
+        <hook file="LightLoadingScreenGuiScript.lua" source_file="lib/utils/lightloadingscreenguiscript"/>
+    </Hooks>
+
+    <AddFiles directory="Assets">
+        <!-- FONTS -->
+        <font path="fonts/font_small_shadow" force="true" unload="true" />
+        <merged_font path="fonts/font_small_shadow_mf" force="true" unload="true" />
+        <texture path="fonts/font_small_shadow" force="true" unload="true" />
+
+        <!-- GUIS -->
+        <texture path="guis/textures/loading/loading_foreground" force="true" unload="true" />
+        <texture path="guis/textures/ingame_menu_bg" force="true" unload="true" />
+        <texture path="guis/textures/loading_bg" force="true" unload="true" />
+        <texture path="guis/textures/menu_arrows" force="true" unload="true" />
+        <texture path="guis/textures/menu_bg" force="true" unload="true" />
+        <texture path="guis/textures/menu_radiobutton" force="true" unload="true" />
+        <texture path="guis/textures/menu_selected" force="true" unload="true" />
+        <texture path="guis/textures/menu_singletick" force="true" unload="true" />
+        <texture path="guis/textures/menu_tickbox" force="true" unload="true" />
+        <texture path="guis/textures/seven_figures_logo" force="true" unload="true" />
+        <texture path="guis/textures/trial_bridge" force="true" unload="true" />
+        <texture path="guis/textures/wwise_df" force="true" unload="true" />
+
+        <!-- SOUNDBANKS -->
+        <bnk path="soundbanks/menu" force="true" unload="true" />
+    </AddFiles>
+</mod>

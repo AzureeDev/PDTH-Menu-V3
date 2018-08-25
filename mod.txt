@@ -1,0 +1,11 @@
+{
+	"name" : "PDTH Menu V3",
+	"description" : "Based on Luffy's Code, remade into BeardLib with fixes and optimization.",
+	"author" : "Luffy, Sora",
+	"contact" : "https://steamcommunity.com/id/Nepgearsy",
+    "blt_version" : 2,
+    "color" : "0.63 0.58 0.95",
+    "pre_hooks" : [
+		{ "hook_id" : "lib/entry", "script_path" : "Core.lua" }
+    ]
+}
